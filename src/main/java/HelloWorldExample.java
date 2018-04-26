@@ -41,7 +41,7 @@ public class HelloWorldExample implements AutoCloseable
     {
         try ( HelloWorldExample greeter = new HelloWorldExample( "bolt://localhost:7687", "neo4j", "123456" ) )
         {
-            greeter.printGreeting( "szeva, brácsa" );
+            greeter.printGreeting( "hello world" );
         }
     }
 }
